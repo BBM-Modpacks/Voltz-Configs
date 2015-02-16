@@ -1,0 +1,138 @@
+{
+  "tools": {
+    "axe": {
+      "name": "Axe",
+      "icon": "minecraft:diamond_axe",
+      "toollist": [
+        "minecraft:diamond_axe",
+        "minecraft:golden_axe",
+        "minecraft:iron_axe",
+        "minecraft:stone_axe",
+        "minecraft:wooden_axe"
+      ],
+      "blocklist": [
+        "IC2:blockRubLeaves",
+        "minecraft:fence",
+        "minecraft:leaves",
+        "minecraft:leaves2",
+        "minecraft:log",
+        "minecraft:log2"
+      ]
+    },
+    "hoe": {
+      "name": "Hoe",
+      "icon": "minecraft:diamond_hoe",
+      "toollist": [
+        "minecraft:diamond_hoe",
+        "minecraft:golden_hoe",
+        "minecraft:iron_hoe",
+        "minecraft:stone_hoe",
+        "minecraft:wooden_hoe"
+      ],
+      "blocklist": [
+        "minecraft:carrots",
+        "minecraft:melon_block",
+        "minecraft:potatoes",
+        "minecraft:pumpkin",
+        "minecraft:wheat"
+      ]
+    },
+    "pickaxe": {
+      "name": "Pickaxe",
+      "icon": "minecraft:diamond_pickaxe",
+      "toollist": [
+        "minecraft:diamond_pickaxe",
+        "minecraft:golden_pickaxe",
+        "minecraft:iron_pickaxe",
+        "minecraft:stone_pickaxe",
+        "minecraft:wooden_pickaxe"
+      ],
+      "blocklist": [
+        "IC2:blockOreCopper/0",
+        "IC2:blockOreLead/0",
+        "IC2:blockOreTin/0",
+        "IC2:blockOreUran/0",
+        "Mekanism:OreBlock/0",
+        "Mekanism:OreBlock/1",
+        "Mekanism:OreBlock/2",
+        "Railcraft:tile.railcraft.ore/0",
+        "Railcraft:tile.railcraft.ore/1",
+        "Railcraft:tile.railcraft.ore/2",
+        "Railcraft:tile.railcraft.ore/3",
+        "Railcraft:tile.railcraft.ore/4",
+        "Railcraft:tile.railcraft.ore/5",
+        "Railcraft:tile.railcraft.ore/7",
+        "Railcraft:tile.railcraft.ore/8",
+        "Railcraft:tile.railcraft.ore/9",
+        "Railcraft:tile.railcraft.ore/10",
+        "Railcraft:tile.railcraft.ore/11",
+        "TConstruct:GravelOre/0",
+        "TConstruct:GravelOre/1",
+        "TConstruct:GravelOre/2",
+        "TConstruct:GravelOre/3",
+        "TConstruct:GravelOre/4",
+        "TConstruct:GravelOre/5",
+        "TConstruct:SearedBrick/1",
+        "TConstruct:SearedBrick/2",
+        "TConstruct:SearedBrick/3",
+        "TConstruct:SearedBrick/4",
+        "TConstruct:SearedBrick/5",
+        "ThermalFoundation:Ore/0",
+        "ThermalFoundation:Ore/1",
+        "ThermalFoundation:Ore/2",
+        "ThermalFoundation:Ore/3",
+        "ThermalFoundation:Ore/4",
+        "ThermalFoundation:Ore/5",
+        "ThermalFoundation:Ore/6",
+        "appliedenergistics2:tile.OreQuartz/0",
+        "appliedenergistics2:tile.OreQuartzCharged/0",
+        "minecraft:coal_ore",
+        "minecraft:cobblestone_wall",
+        "minecraft:diamond_ore",
+        "minecraft:emerald_ore",
+        "minecraft:glowstone",
+        "minecraft:gold_ore",
+        "minecraft:iron_ore",
+        "minecraft:lapis_ore",
+        "minecraft:lit_redstone_ore",
+        "minecraft:mossy_cobblestone",
+        "minecraft:nether_brick_fence",
+        "minecraft:obsidian",
+        "minecraft:quartz_ore",
+        "minecraft:redstone_ore"
+      ]
+    },
+    "shears": {
+      "name": "Shears",
+      "icon": "minecraft:shears",
+      "toollist": [
+        "minecraft:shears"
+      ],
+      "blocklist": [
+        "IC2:blockRubLeaves",
+        "minecraft:deadbush",
+        "minecraft:leaves",
+        "minecraft:leaves2",
+        "minecraft:tallgrass",
+        "minecraft:vine",
+        "minecraft:web",
+        "minecraft:wool"
+      ]
+    },
+    "shovel": {
+      "name": "Shovel",
+      "icon": "minecraft:diamond_shovel",
+      "toollist": [
+        "minecraft:diamond_shovel",
+        "minecraft:golden_shovel",
+        "minecraft:iron_shovel",
+        "minecraft:stone_shovel",
+        "minecraft:wooden_shovel"
+      ],
+      "blocklist": [
+        "minecraft:clay",
+        "minecraft:gravel"
+      ]
+    }
+  }
+}
