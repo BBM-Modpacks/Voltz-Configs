@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<TConstruct:Redstone.Landmine>);
 recipes.remove(<minecraft:diamond_hoe>);
 recipes.remove(<minecraft:iron_hoe>);
 recipes.remove(<minecraft:stone_hoe>);
