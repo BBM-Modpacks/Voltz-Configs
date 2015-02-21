@@ -45,6 +45,26 @@ recipes.remove(<minecraft:stone_sword>);
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<minecraft:diamond_hoe>, [<minecraft:diamond_hoe>, <ore:gemDiamond>, <ore:gemDiamond>]);
+recipes.addShapeless(<minecraft:diamond_shovel>, [<minecraft:diamond_shovel>, <ore:gemDiamond>]);
+recipes.addShapeless(<minecraft:diamond_axe>, [<minecraft:diamond_axe>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]);
+recipes.addShapeless(<minecraft:diamond_pickaxe>, [<minecraft:diamond_pickaxe>, <ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]);
+recipes.addShapeless(<minecraft:diamond_sword>, [<minecraft:diamond_sword>, <ore:gemDiamond>, <ore:gemDiamond>]);
+recipes.addShapeless(<minecraft:golden_hoe>, [<minecraft:golden_hoe>, <ore:ingotGold>, <ore:ingotGold>]);
+recipes.addShapeless(<minecraft:golden_shovel>, [<minecraft:golden_shovel>, <ore:ingotGold>]);
+recipes.addShapeless(<minecraft:golden_axe>, [<minecraft:golden_axe>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]);
+recipes.addShapeless(<minecraft:golden_pickaxe>, [<minecraft:golden_pickaxe>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]);
+recipes.addShapeless(<minecraft:golden_sword>, [<minecraft:golden_sword>, <ore:ingotGold>, <ore:ingotGold>]);
+recipes.addShapeless(<minecraft:iron_hoe>, [<minecraft:iron_hoe>, <ore:ingotIron>, <ore:ingotIron>]);
+recipes.addShapeless(<minecraft:iron_shovel>, [<minecraft:iron_shovel>, <ore:ingotIron>]);
+recipes.addShapeless(<minecraft:iron_axe>, [<minecraft:iron_axe>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]);
+recipes.addShapeless(<minecraft:iron_pickaxe>, [<minecraft:iron_pickaxe>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]);
+recipes.addShapeless(<minecraft:iron_sword>, [<minecraft:iron_sword>, <ore:ingotIron>, <ore:ingotIron>]);
+recipes.addShapeless(<minecraft:wooden_hoe>, [<minecraft:wooden_hoe>, <ore:plankWood>, <ore:plankWood>]);
+recipes.addShapeless(<minecraft:wooden_shovel>, [<minecraft:wooden_shovel>, <ore:plankWood>]);
+recipes.addShapeless(<minecraft:wooden_axe>, [<minecraft:wooden_axe>, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>]);
+recipes.addShapeless(<minecraft:wooden_pickaxe>, [<minecraft:wooden_pickaxe>, <ore:plankWood>, <ore:plankWood>, <ore:plankWood>]);
+recipes.addShapeless(<minecraft:wooden_sword>, [<minecraft:wooden_sword>, <ore:plankWood>, <ore:plankWood>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
