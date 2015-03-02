@@ -1,0 +1,675 @@
+Script handler ready. Waiting for a while to ensure all other mods are done messing with NEI.
+Starting NEI Filter scripting. This might take a moment to load all the modules...
+Engine: JAVASCRIPT
+Setting up Java Library...
+Setting up FML Library...
+Setting up NEI Library...
+Setting up CreativeTab library...
+VoltzEngine:voltzengine:HeatedRock has a bad registry name! Attempting to parse and reassemble correctly...
+Parsed bad name into: modid: VoltzEngine, name: voltzengine:HeatedRock. If this is not correct please report it as a bug!
+The mod VoltzEngine is registering items or blocks with bad registry names. Names should not contain multiple colons as it breaks the ability to do reverse-lookups through FML. Please tell whoever made this mod that this should be changed!
+Found creative tab: CarpentersBlocks
+Found creative tab: compactmachines
+Found creative tab: EnderIO
+Found creative tab: decorations
+Found creative tab: EnderTechAll
+Found creative tab: extraUtil
+Found creative tab: combat
+Found creative tab: extraUtil_FMP
+Found creative tab: tools
+Found creative tab: IC2
+Found creative tab: misc
+Found creative tab: jabba
+Found creative tab: tabMekanism
+Found creative tab: buildingBlocks
+Found creative tab: transportation
+Found creative tab: materials
+Found creative tab: tabOpenBlocks
+Found creative tab: OpenComputers
+Found creative tab: railcraft
+Found creative tab: TConstructBlocks
+Found creative tab: TConstructWeaponry
+Found creative tab: TConstructParts
+Found creative tab: TConstructTools
+Found creative tab: TConstructMaterials
+Found creative tab: redstone
+Found creative tab: food
+Found creative tab: TConstructEquipables
+Found creative tab: TSteelworks
+Found creative tab: thermaldynamics.creativeTab
+Found creative tab: thermalexpansion.creativeTabBlocks
+Found creative tab: thermalexpansion.creativeTabItems
+Found creative tab: thermalexpansion.creativeTabTools
+Found creative tab: thermalexpansion.creativeTabFlorbs
+Found creative tab: thermalfoundation.creativeTab
+Found creative tab: thermalfoundation.creativeTabArmor
+Found creative tab: thermalfoundation.creativeTabTools
+Found creative tab: appliedenergistics2
+Found creative tab: appliedenergistics2.facades
+Found creative tab: bluepower:machines
+Found creative tab: bluepower:tools
+Found creative tab: bluepower:blocks
+Found creative tab: bluepower:items
+Found creative tab: bluepower:lighting
+Found creative tab: tabWoodChiselBlocks
+Found creative tab: tabModdedChiselBlocks
+Found creative tab: tabStoneChiselBlocks
+Found creative tab: tabOtherChiselBlocks
+Found creative tab: tabChisel
+Found creative tab: tabMetalChiselBlocks
+Found creative tab: Extra_Cells
+Found creative tab: tabFlan1
+Found creative tab: tabFlan2
+Found creative tab: tabFlan0
+Found creative tab: tabFlan4
+Found creative tab: tabFlan3
+Found creative tab: ICBM
+Found creative tab: tabMadScience
+Found creative tab: brewing
+Found creative tab: openmodularturrets
+Found creative tab: tabWarpBook
+Setting up ForgeMicroblock Library...
+Setting up ExtraUtilities Library...
+Setting up Applied Energistics 2 Library...
+Loading table of contents for module: custom_nei_filters, 1.0, Author: denoflionsx
+Bootstrap setting found. Loading: Bootstrap.js
+Loading: vanilla.js
+hide called. Params: minecraft, portal
+Regex match found! minecraft:portal matches minecraft:portal.
+Found ItemStack minecraft:portal. 64xtile.portal@0
+hide called. Params: minecraft, end_portal
+Regex match found! minecraft:end_portal matches minecraft:end_portal.
+Found ItemStack minecraft:end_portal. 64xtile.null@0
+hide called. Params: minecraft, fire
+Regex match found! minecraft:fire matches minecraft:fire.
+Found ItemStack minecraft:fire. 64xtile.fire@0
+hide called. Params: minecraft, water
+Regex match found! minecraft:water matches minecraft:water.
+Found ItemStack minecraft:water. 64xtile.water@0
+hide called. Params: minecraft, lava
+Regex match found! minecraft:lava matches minecraft:lava.
+Found ItemStack minecraft:lava. 64xtile.lava@0
+hide called. Params: minecraft, mob_spawner
+Regex match found! minecraft:mob_spawner matches minecraft:mob_spawner.
+Found ItemStack minecraft:mob_spawner. 64xtile.mobSpawner@0
+override called. Params: minecraft, spawn_egg, 0
+Regex match found! minecraft:spawn_egg matches minecraft:spawn_egg.
+Found ItemStack minecraft:spawn_egg. 64xitem.monsterPlacer@0
+Loading: ThermalExpansion.js
+override called. Params: ThermalExpansion, florb, 0,1
+Regex match found! ThermalExpansion:florb matches ThermalExpansion:florb.
+Found ItemStack ThermalExpansion:florb. 16xitem.thermalexpansion.florb@0
+Loading: Mekanism.js
+override called. Params: Mekanism, GasTank, 100
+Regex match found! Mekanism:GasTank matches Mekanism:GasTank.
+Found ItemStack Mekanism:GasTank. 1xtile.GasTank@0
+override called. Params: Mekanism, *PlasticBlock, 0
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:GlowPlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:PlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:ReinforcedPlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:RoadPlasticBlock.
+Regex match found! Mekanism:*PlasticBlock matches Mekanism:SlickPlasticBlock.
+Found ItemStack Mekanism:GlowPlasticBlock. 64xtile.GlowPlasticBlock@0
+Found ItemStack Mekanism:PlasticBlock. 64xtile.PlasticBlock@0
+Found ItemStack Mekanism:ReinforcedPlasticBlock. 64xtile.ReinforcedPlasticBlock@0
+Found ItemStack Mekanism:RoadPlasticBlock. 64xtile.RoadPlasticBlock@0
+Found ItemStack Mekanism:SlickPlasticBlock. 64xtile.SlickPlasticBlock@0
+override called. Params: Mekanism, Balloon, 0
+Regex match found! Mekanism:Balloon matches Mekanism:Balloon.
+Found ItemStack Mekanism:Balloon. 64xitem.Balloon@0
+override called. Params: Mekanism, GlowPanel, 0
+Regex match found! Mekanism:GlowPanel matches Mekanism:GlowPanel.
+Found ItemStack Mekanism:GlowPanel. 64xitem.GlowPanel@0
+Loading: ForgeMicroblock.js
+getRandomMaterial called. Returned: tile.Decoration.BrickFancy_6
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ForgeMicroblockObject). Params: 1,2,4,257,258,260,513,514,516,769,770,772, tile.Decoration.BrickFancy_6
+Loading: ExtraUtilities.js
+override called. Params: ExtraUtilities, drum, 0,1
+Regex match found! ExtraUtilities:drum matches ExtraUtilities:drum.
+Found ItemStack ExtraUtilities:drum. 64xtile.extrautils:drum@0
+getRandomMaterial called. Returned: tile.Decoration.BrickFancy_11
+obliterate_microblocks called (version in info.inpureprojects.core.NEI.gtfoMicroblocks.ScriptObjects.ExtraUtilitiesObject). Params: 1,2,3, tile.Decoration.BrickFancy_11
+Loading: BuildCraft.js
+Loading: Bibliocraft.js
+Loading: AppliedEnergistics2.js
+getFacadeItem called. Returned: appliedenergistics2:item.ItemFacade
+getSubTypes called.
+getNumberOfTypes called. Returned: 1606
+override called. Params: appliedenergistics2, item.ItemFacade, 396
+Regex match found! appliedenergistics2:item.ItemFacade matches appliedenergistics2:item.ItemFacade.
+Found ItemStack appliedenergistics2:item.ItemFacade. 64xitem.appliedenergistics2.ItemFacade@0
+Loading: Tcon.js
+override called. Params: TConstruct, tool*, 0
+Regex match found! TConstruct:tool* matches TConstruct:toolRod.
+Regex match found! TConstruct:tool* matches TConstruct:toolShard.
+Found ItemStack TConstruct:toolRod. 64xitem.tconstruct.ToolRod@0
+Found ItemStack TConstruct:toolShard. 64xitem.tconstruct.ToolShard@0
+override called. Params: TConstruct, binding, 0
+Regex match found! TConstruct:binding matches TConstruct:binding.
+Found ItemStack TConstruct:binding. 64xitem.tconstruct.Binding@0
+override called. Params: TConstruct, scytheBlade, 0
+Regex match found! TConstruct:scytheBlade matches TConstruct:scytheBlade.
+Found ItemStack TConstruct:scytheBlade. 64xitem.tconstruct.ScytheHead@0
+Loading: MFR.js
+Loading: ExtraCells.js
+override called. Params: extracells, pattern.fluid, 0
+Regex match found! extracells:pattern.fluid matches extracells:pattern.fluid.
+Found ItemStack extracells:pattern.fluid. 1xitem.extracells.pattern.fluid@0
+Loading: Chisel.js
+override called. Params: chisel, acacia_planks, 1
+Regex match found! chisel:acacia_planks matches chisel:acacia_planks.
+Found ItemStack chisel:acacia_planks. 64xtile.chisel.acacia_planks@0
+override called. Params: chisel, aluminumblock, 0
+Regex match found! chisel:aluminumblock matches chisel:aluminumblock.
+Found ItemStack chisel:aluminumblock. 64xtile.chisel.aluminumblock@0
+override called. Params: chisel, andesite, 0
+Regex match found! chisel:andesite matches chisel:andesite.
+Found ItemStack chisel:andesite. 64xtile.chisel.andesite@0
+override called. Params: chisel, antiBlock, 0
+Regex match found! chisel:antiBlock matches chisel:antiBlock.
+Found ItemStack chisel:antiBlock. 64xtile.chisel.antiBlock@0
+override called. Params: chisel, autoChisel, 0
+Regex match found! chisel:autoChisel matches chisel:autoChisel.
+Found ItemStack chisel:autoChisel. 64xtile.chisel.autoChisel@0
+override called. Params: chisel, birch_planks, 1
+Regex match found! chisel:birch_planks matches chisel:birch_planks.
+Found ItemStack chisel:birch_planks. 64xtile.chisel.birch_planks@0
+override called. Params: chisel, bookshelf, 1
+Regex match found! chisel:bookshelf matches chisel:bookshelf.
+Found ItemStack chisel:bookshelf. 64xtile.chisel.bookshelf@0
+override called. Params: chisel, brickCustom, 1
+Regex match found! chisel:brickCustom matches chisel:brickCustom.
+Found ItemStack chisel:brickCustom. 64xtile.chisel.brickCustom@0
+override called. Params: chisel, bronzeblock, 0
+Regex match found! chisel:bronzeblock matches chisel:bronzeblock.
+Found ItemStack chisel:bronzeblock. 64xtile.chisel.bronzeblock@0
+override called. Params: chisel, carpet, 0
+Regex match found! chisel:carpet matches chisel:carpet.
+Found ItemStack chisel:carpet. 64xtile.chisel.carpet@0
+override called. Params: chisel, carpet_block, 0
+Regex match found! chisel:carpet_block matches chisel:carpet_block.
+Found ItemStack chisel:carpet_block. 64xtile.chisel.carpet_block@0
+override called. Params: chisel, cloud, 0
+Regex match found! chisel:cloud matches chisel:cloud.
+Found ItemStack chisel:cloud. 64xtile.chisel.cloud@0
+override called. Params: chisel, cobblestone, 1
+Regex match found! chisel:cobblestone matches chisel:cobblestone.
+Found ItemStack chisel:cobblestone. 64xtile.chisel.cobblestone@0
+override called. Params: chisel, concrete, 0
+Regex match found! chisel:concrete matches chisel:concrete.
+Found ItemStack chisel:concrete. 64xtile.chisel.concrete@0
+override called. Params: chisel, copperblock, 0
+Regex match found! chisel:copperblock matches chisel:copperblock.
+Found ItemStack chisel:copperblock. 64xtile.chisel.copperblock@0
+override called. Params: chisel, dark_oak_planks, 1
+Regex match found! chisel:dark_oak_planks matches chisel:dark_oak_planks.
+Found ItemStack chisel:dark_oak_planks. 64xtile.chisel.dark_oak_planks@0
+override called. Params: chisel, diamond_block, 1
+Regex match found! chisel:diamond_block matches chisel:diamond_block.
+Found ItemStack chisel:diamond_block. 64xtile.chisel.diamond_block@0
+override called. Params: chisel, diorite, 0
+Regex match found! chisel:diorite matches chisel:diorite.
+Found ItemStack chisel:diorite. 64xtile.chisel.diorite@0
+override called. Params: chisel, dirt, 1
+Regex match found! chisel:dirt matches chisel:dirt.
+Found ItemStack chisel:dirt. 64xtile.chisel.dirt@0
+override called. Params: chisel, emerald_block, 1
+Regex match found! chisel:emerald_block matches chisel:emerald_block.
+Found ItemStack chisel:emerald_block. 64xtile.chisel.emerald_block@0
+override called. Params: chisel, factoryblock, 0
+Regex match found! chisel:factoryblock matches chisel:factoryblock.
+Found ItemStack chisel:factoryblock. 64xtile.chisel.factoryblock@0
+override called. Params: chisel, fantasyblock, 0
+Regex match found! chisel:fantasyblock matches chisel:fantasyblock.
+Found ItemStack chisel:fantasyblock. 64xtile.chisel.fantasyblock@0
+override called. Params: chisel, fantasyblock2, 0
+Regex match found! chisel:fantasyblock2 matches chisel:fantasyblock2.
+Found ItemStack chisel:fantasyblock2. 64xtile.chisel.fantasyblock2@0
+override called. Params: chisel, futura, 0
+Regex match found! chisel:futura matches chisel:futura.
+Found ItemStack chisel:futura. 64xtile.chisel.futura@0
+override called. Params: chisel, glass, 1
+Regex match found! chisel:glass matches chisel:glass.
+Found ItemStack chisel:glass. 64xtile.chisel.glass@0
+override called. Params: chisel, glass_pane, 1
+Regex match found! chisel:glass_pane matches chisel:glass_pane.
+Found ItemStack chisel:glass_pane. 64xtile.chisel.glass_pane@0
+override called. Params: chisel, glowstone, 1
+Regex match found! chisel:glowstone matches chisel:glowstone.
+Found ItemStack chisel:glowstone. 64xtile.chisel.glowstone@0
+override called. Params: chisel, gold_block, 1
+Regex match found! chisel:gold_block matches chisel:gold_block.
+Found ItemStack chisel:gold_block. 64xtile.chisel.gold_block@0
+override called. Params: chisel, granite, 0
+Regex match found! chisel:granite matches chisel:granite.
+Found ItemStack chisel:granite. 64xtile.chisel.granite@0
+override called. Params: chisel, grimstone, 0
+Regex match found! chisel:grimstone matches chisel:grimstone.
+Found ItemStack chisel:grimstone. 64xtile.chisel.grimstone@0
+override called. Params: chisel, hexPlating, 0
+Regex match found! chisel:hexPlating matches chisel:hexPlating.
+Found ItemStack chisel:hexPlating. 64xtile.chisel.hexPlating@0
+override called. Params: chisel, holystone, 0
+Regex match found! chisel:holystone matches chisel:holystone.
+Found ItemStack chisel:holystone. 64xtile.chisel.holystone@0
+override called. Params: chisel, ice, 1
+Regex match found! chisel:ice matches chisel:ice.
+Found ItemStack chisel:ice. 64xtile.chisel.ice@0
+override called. Params: chisel, ice_pillar, 0
+Regex match found! chisel:ice_pillar matches chisel:ice_pillar.
+Found ItemStack chisel:ice_pillar. 64xtile.chisel.ice_pillar@0
+override called. Params: chisel, ice_stairs.0, 0
+Regex match found! chisel:ice_stairs.0 matches chisel:ice_stairs.0.
+Found ItemStack chisel:ice_stairs.0. 64xtile.chisel.ice_stairs.0@0
+override called. Params: chisel, iron_bars, 1
+Regex match found! chisel:iron_bars matches chisel:iron_bars.
+Found ItemStack chisel:iron_bars. 64xtile.chisel.iron_bars@0
+override called. Params: chisel, iron_block, 1
+Regex match found! chisel:iron_block matches chisel:iron_block.
+Found ItemStack chisel:iron_block. 64xtile.chisel.iron_block@0
+override called. Params: chisel, jungle_planks, 1
+Regex match found! chisel:jungle_planks matches chisel:jungle_planks.
+Found ItemStack chisel:jungle_planks. 64xtile.chisel.jungle_planks@0
+override called. Params: chisel, laboratoryblock, 0
+Regex match found! chisel:laboratoryblock matches chisel:laboratoryblock.
+Found ItemStack chisel:laboratoryblock. 64xtile.chisel.laboratoryblock@0
+override called. Params: chisel, lapis_block, 1
+Regex match found! chisel:lapis_block matches chisel:lapis_block.
+Found ItemStack chisel:lapis_block. 64xtile.chisel.lapis_block@0
+override called. Params: chisel, lavastone, 0
+Regex match found! chisel:lavastone matches chisel:lavastone.
+Found ItemStack chisel:lavastone. 64xtile.chisel.lavastone@0
+override called. Params: chisel, leadblock, 0
+Regex match found! chisel:leadblock matches chisel:leadblock.
+Found ItemStack chisel:leadblock. 64xtile.chisel.leadblock@0
+override called. Params: chisel, leaves, 6
+Regex match found! chisel:leaves matches chisel:leaves.
+Found ItemStack chisel:leaves. 64xtile.chisel.leaves@0
+override called. Params: chisel, limestone, 0
+Regex match found! chisel:limestone matches chisel:limestone.
+Found ItemStack chisel:limestone. 64xtile.chisel.limestone@0
+override called. Params: chisel, limestone_slab, 0
+Regex match found! chisel:limestone_slab matches chisel:limestone_slab.
+Found ItemStack chisel:limestone_slab. 64xtile.chisel.limestone_slab@0
+override called. Params: chisel, limestone_slab_top, 0
+Regex match found! chisel:limestone_slab_top matches chisel:limestone_slab_top.
+Found ItemStack chisel:limestone_slab_top. 64xtile.null@0
+override called. Params: chisel, limestone_stairs.0, 0
+Regex match found! chisel:limestone_stairs.0 matches chisel:limestone_stairs.0.
+Found ItemStack chisel:limestone_stairs.0. 64xtile.chisel.limestone_stairs.0@0
+override called. Params: chisel, marble, 0
+Regex match found! chisel:marble matches chisel:marble.
+Found ItemStack chisel:marble. 64xtile.chisel.marble@0
+override called. Params: chisel, marble_pillar, 0
+Regex match found! chisel:marble_pillar matches chisel:marble_pillar.
+Found ItemStack chisel:marble_pillar. 64xtile.chisel.marble_pillar@0
+override called. Params: chisel, marble_pillar_slab, 0
+Regex match found! chisel:marble_pillar_slab matches chisel:marble_pillar_slab.
+Found ItemStack chisel:marble_pillar_slab. 64xtile.chisel.marble_pillar_slab@0
+override called. Params: chisel, marble_pillar_slab_top, 0
+Regex match found! chisel:marble_pillar_slab_top matches chisel:marble_pillar_slab_top.
+Found ItemStack chisel:marble_pillar_slab_top. 64xtile.null@0
+override called. Params: chisel, marble_slab, 0
+Regex match found! chisel:marble_slab matches chisel:marble_slab.
+Found ItemStack chisel:marble_slab. 64xtile.chisel.marble_slab@0
+override called. Params: chisel, marble_slab_top, 0
+Regex match found! chisel:marble_slab_top matches chisel:marble_slab_top.
+Found ItemStack chisel:marble_slab_top. 64xtile.null@0
+override called. Params: chisel, marble_stairs.0, 0
+Regex match found! chisel:marble_stairs.0 matches chisel:marble_stairs.0.
+Found ItemStack chisel:marble_stairs.0. 64xtile.chisel.marble_stairs.0@0
+override called. Params: chisel, mossy_cobblestone, 1
+Regex match found! chisel:mossy_cobblestone matches chisel:mossy_cobblestone.
+Found ItemStack chisel:mossy_cobblestone. 64xtile.chisel.mossy_cobblestone@0
+override called. Params: chisel, mossy_templeblock, 0
+Regex match found! chisel:mossy_templeblock matches chisel:mossy_templeblock.
+Found ItemStack chisel:mossy_templeblock. 64xtile.chisel.mossy_templeblock@0
+override called. Params: chisel, nether_brick, 1
+Regex match found! chisel:nether_brick matches chisel:nether_brick.
+Found ItemStack chisel:nether_brick. 64xtile.chisel.nether_brick@0
+override called. Params: chisel, netherrack, 1
+Regex match found! chisel:netherrack matches chisel:netherrack.
+Found ItemStack chisel:netherrack. 64xtile.chisel.netherrack@0
+override called. Params: chisel, oak_planks, 1
+Regex match found! chisel:oak_planks matches chisel:oak_planks.
+Found ItemStack chisel:oak_planks. 64xtile.chisel.oak_planks@0
+override called. Params: chisel, obsidian, 1
+Regex match found! chisel:obsidian matches chisel:obsidian.
+Found ItemStack chisel:obsidian. 64xtile.chisel.obsidian@0
+override called. Params: chisel, obsidian_snakestone, 0
+Regex match found! chisel:obsidian_snakestone matches chisel:obsidian_snakestone.
+Found ItemStack chisel:obsidian_snakestone. 64xtile.chisel.obsidianSnakestone@0
+override called. Params: chisel, packedice, 1
+Regex match found! chisel:packedice matches chisel:packedice.
+Found ItemStack chisel:packedice. 64xtile.chisel.packedice@0
+override called. Params: chisel, packedice_pillar, 0
+Regex match found! chisel:packedice_pillar matches chisel:packedice_pillar.
+Found ItemStack chisel:packedice_pillar. 64xtile.chisel.packedice_pillar@0
+override called. Params: chisel, packedice_stairs.0, 0
+Regex match found! chisel:packedice_stairs.0 matches chisel:packedice_stairs.0.
+Found ItemStack chisel:packedice_stairs.0. 64xtile.chisel.packedice_stairs.0@0
+override called. Params: chisel, paperwall, 0
+Regex match found! chisel:paperwall matches chisel:paperwall.
+Found ItemStack chisel:paperwall. 64xtile.chisel.paperwall@0
+override called. Params: chisel, paperwall_block, 0
+Regex match found! chisel:paperwall_block matches chisel:paperwall_block.
+Found ItemStack chisel:paperwall_block. 64xtile.chisel.paperwall_block@0
+override called. Params: chisel, present, 0
+Regex match found! chisel:present matches chisel:present.
+Found ItemStack chisel:present. 64xtile.chisel.present@0
+override called. Params: chisel, redstone_block, 1
+Regex match found! chisel:redstone_block matches chisel:redstone_block.
+Found ItemStack chisel:redstone_block. 64xtile.chisel.redstone_block@0
+override called. Params: chisel, road_line, 0
+Regex match found! chisel:road_line matches chisel:road_line.
+Found ItemStack chisel:road_line. 64xtile.chisel.road_line@0
+override called. Params: chisel, sand_snakestone, 0
+Regex match found! chisel:sand_snakestone matches chisel:sand_snakestone.
+Found ItemStack chisel:sand_snakestone. 64xtile.chisel.snakestoneSand@0
+override called. Params: chisel, sandstone, 3
+Regex match found! chisel:sandstone matches chisel:sandstone.
+Found ItemStack chisel:sandstone. 64xtile.chisel.sandstone@0
+override called. Params: chisel, sandstone_scribbles, 0
+Regex match found! chisel:sandstone_scribbles matches chisel:sandstone_scribbles.
+Found ItemStack chisel:sandstone_scribbles. 64xtile.chisel.sandstone_scribbles@0
+override called. Params: chisel, silverblock, 0
+Regex match found! chisel:silverblock matches chisel:silverblock.
+Found ItemStack chisel:silverblock. 64xtile.chisel.silverblock@0
+override called. Params: chisel, spruce_planks, 1
+Regex match found! chisel:spruce_planks matches chisel:spruce_planks.
+Found ItemStack chisel:spruce_planks. 64xtile.chisel.spruce_planks@0
+override called. Params: chisel, stained_glass_brown, 1
+Regex match found! chisel:stained_glass_brown matches chisel:stained_glass_brown.
+Found ItemStack chisel:stained_glass_brown. 64xtile.chisel.stained_glass_brown@0
+override called. Params: chisel, stained_glass_lightgray, 1
+Regex match found! chisel:stained_glass_lightgray matches chisel:stained_glass_lightgray.
+Found ItemStack chisel:stained_glass_lightgray. 64xtile.chisel.stained_glass_lightgray@0
+override called. Params: chisel, stained_glass_pane_brown, 1
+Regex match found! chisel:stained_glass_pane_brown matches chisel:stained_glass_pane_brown.
+Found ItemStack chisel:stained_glass_pane_brown. 64xtile.chisel.stained_glass_pane_brown@0
+override called. Params: chisel, stained_glass_pane_lightgray, 1
+Regex match found! chisel:stained_glass_pane_lightgray matches chisel:stained_glass_pane_lightgray.
+Found ItemStack chisel:stained_glass_pane_lightgray. 64xtile.chisel.stained_glass_pane_lightgray@0
+override called. Params: chisel, stained_glass_pane_magenta, 1
+Regex match found! chisel:stained_glass_pane_magenta matches chisel:stained_glass_pane_magenta.
+Found ItemStack chisel:stained_glass_pane_magenta. 64xtile.chisel.stained_glass_pane_magenta@0
+override called. Params: chisel, stained_glass_pane_pink, 1
+Regex match found! chisel:stained_glass_pane_pink matches chisel:stained_glass_pane_pink.
+Found ItemStack chisel:stained_glass_pane_pink. 64xtile.chisel.stained_glass_pane_pink@0
+override called. Params: chisel, stained_glass_pane_purple, 1
+Regex match found! chisel:stained_glass_pane_purple matches chisel:stained_glass_pane_purple.
+Found ItemStack chisel:stained_glass_pane_purple. 64xtile.chisel.stained_glass_pane_purple@0
+override called. Params: chisel, stained_glass_pane_red, 1
+Regex match found! chisel:stained_glass_pane_red matches chisel:stained_glass_pane_red.
+Found ItemStack chisel:stained_glass_pane_red. 64xtile.chisel.stained_glass_pane_red@0
+override called. Params: chisel, stained_glass_pane_white, 1
+Regex match found! chisel:stained_glass_pane_white matches chisel:stained_glass_pane_white.
+Found ItemStack chisel:stained_glass_pane_white. 64xtile.chisel.stained_glass_pane_white@0
+override called. Params: chisel, stained_glass_pane_yellow, 1
+Regex match found! chisel:stained_glass_pane_yellow matches chisel:stained_glass_pane_yellow.
+Found ItemStack chisel:stained_glass_pane_yellow. 64xtile.chisel.stained_glass_pane_yellow@0
+override called. Params: chisel, stained_glass_white, 1
+Regex match found! chisel:stained_glass_white matches chisel:stained_glass_white.
+Found ItemStack chisel:stained_glass_white. 64xtile.chisel.stained_glass_white@0
+override called. Params: chisel, stained_glass_yellow, 1
+Regex match found! chisel:stained_glass_yellow matches chisel:stained_glass_yellow.
+Found ItemStack chisel:stained_glass_yellow. 64xtile.chisel.stained_glass_yellow@0
+override called. Params: chisel, steelblock, 0
+Regex match found! chisel:steelblock matches chisel:steelblock.
+Found ItemStack chisel:steelblock. 64xtile.chisel.steelblock@0
+override called. Params: chisel, stone_snakestone, 0
+Regex match found! chisel:stone_snakestone matches chisel:stone_snakestone.
+Found ItemStack chisel:stone_snakestone. 64xtile.chisel.snakestoneStone@0
+override called. Params: chisel, stonebricksmooth, 4
+Regex match found! chisel:stonebricksmooth matches chisel:stonebricksmooth.
+Found ItemStack chisel:stonebricksmooth. 64xtile.chisel.stonebricksmooth@0
+override called. Params: chisel, stonebricksmooth2, 0
+Regex match found! chisel:stonebricksmooth2 matches chisel:stonebricksmooth2.
+Found ItemStack chisel:stonebricksmooth2. 64xtile.chisel.stonebricksmooth2@0
+override called. Params: chisel, technical, 0
+Regex match found! chisel:technical matches chisel:technical.
+Found ItemStack chisel:technical. 64xtile.chisel.technical@0
+override called. Params: chisel, technical2, 0
+Regex match found! chisel:technical2 matches chisel:technical2.
+Found ItemStack chisel:technical2. 64xtile.chisel.technical2@0
+override called. Params: chisel, templeblock, 0
+Regex match found! chisel:templeblock matches chisel:templeblock.
+Found ItemStack chisel:templeblock. 64xtile.chisel.templeblock@0
+override called. Params: chisel, tinblock, 0
+Regex match found! chisel:tinblock matches chisel:tinblock.
+Found ItemStack chisel:tinblock. 64xtile.chisel.tinblock@0
+override called. Params: chisel, tyrian, 0
+Regex match found! chisel:tyrian matches chisel:tyrian.
+Found ItemStack chisel:tyrian. 64xtile.chisel.tyrian@0
+override called. Params: chisel, uraniumblock, 0
+Regex match found! chisel:uraniumblock matches chisel:uraniumblock.
+Found ItemStack chisel:uraniumblock. 64xtile.chisel.uraniumblock@0
+override called. Params: chisel, valentines, 0
+Regex match found! chisel:valentines matches chisel:valentines.
+Found ItemStack chisel:valentines. 64xtile.chisel.valentines@0
+override called. Params: chisel, voidstone, 0
+Regex match found! chisel:voidstone matches chisel:voidstone.
+Found ItemStack chisel:voidstone. 64xtile.chisel.voidstone@0
+override called. Params: chisel, voidstone2, 0
+Regex match found! chisel:voidstone2 matches chisel:voidstone2.
+Found ItemStack chisel:voidstone2. 64xtile.chisel.voidstone2@0
+override called. Params: chisel, voidstonePillar, 0
+Regex match found! chisel:voidstonePillar matches chisel:voidstonePillar.
+Found ItemStack chisel:voidstonePillar. 64xtile.chisel.voidstonePillar@0
+override called. Params: chisel, voidstonePillar2, 0
+Regex match found! chisel:voidstonePillar2 matches chisel:voidstonePillar2.
+Found ItemStack chisel:voidstonePillar2. 64xtile.chisel.voidstonePillar2@0
+override called. Params: chisel, warningSign, 0
+Regex match found! chisel:warningSign matches chisel:warningSign.
+Found ItemStack chisel:warningSign. 64xtile.chisel.warningSign@0
+override called. Params: chisel, waterstone, 0
+Regex match found! chisel:waterstone matches chisel:waterstone.
+Found ItemStack chisel:waterstone. 64xtile.chisel.waterstone@0
+override called. Params: chisel, woolen_clay, 0
+Regex match found! chisel:woolen_clay matches chisel:woolen_clay.
+Found ItemStack chisel:woolen_clay. 64xtile.chisel.woolen_clay@0
+hide called. Params: chisel, ice_stairs.1
+Regex match found! chisel:ice_stairs.1 matches chisel:ice_stairs.1.
+Found ItemStack chisel:ice_stairs.1. 64xtile.chisel.ice_stairs.1@0
+hide called. Params: chisel, ice_stairs.2
+Regex match found! chisel:ice_stairs.2 matches chisel:ice_stairs.2.
+Found ItemStack chisel:ice_stairs.2. 64xtile.chisel.ice_stairs.2@0
+hide called. Params: chisel, ice_stairs.3
+Regex match found! chisel:ice_stairs.3 matches chisel:ice_stairs.3.
+Found ItemStack chisel:ice_stairs.3. 64xtile.chisel.ice_stairs.3@0
+hide called. Params: chisel, ice_stairs.4
+Regex match found! chisel:ice_stairs.4 matches chisel:ice_stairs.4.
+Found ItemStack chisel:ice_stairs.4. 64xtile.chisel.ice_stairs.4@0
+hide called. Params: chisel, ice_stairs.5
+Regex match found! chisel:ice_stairs.5 matches chisel:ice_stairs.5.
+Found ItemStack chisel:ice_stairs.5. 64xtile.chisel.ice_stairs.5@0
+hide called. Params: chisel, ice_stairs.6
+Regex match found! chisel:ice_stairs.6 matches chisel:ice_stairs.6.
+Found ItemStack chisel:ice_stairs.6. 64xtile.chisel.ice_stairs.6@0
+hide called. Params: chisel, ice_stairs.7
+Regex match found! chisel:ice_stairs.7 matches chisel:ice_stairs.7.
+Found ItemStack chisel:ice_stairs.7. 64xtile.chisel.ice_stairs.7@0
+hide called. Params: chisel, jackolantern2
+Regex match found! chisel:jackolantern2 matches chisel:jackolantern2.
+Found ItemStack chisel:jackolantern2. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern3
+Regex match found! chisel:jackolantern3 matches chisel:jackolantern3.
+Found ItemStack chisel:jackolantern3. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern4
+Regex match found! chisel:jackolantern4 matches chisel:jackolantern4.
+Found ItemStack chisel:jackolantern4. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern5
+Regex match found! chisel:jackolantern5 matches chisel:jackolantern5.
+Found ItemStack chisel:jackolantern5. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern6
+Regex match found! chisel:jackolantern6 matches chisel:jackolantern6.
+Found ItemStack chisel:jackolantern6. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern7
+Regex match found! chisel:jackolantern7 matches chisel:jackolantern7.
+Found ItemStack chisel:jackolantern7. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern8
+Regex match found! chisel:jackolantern8 matches chisel:jackolantern8.
+Found ItemStack chisel:jackolantern8. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern9
+Regex match found! chisel:jackolantern9 matches chisel:jackolantern9.
+Found ItemStack chisel:jackolantern9. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern10
+Regex match found! chisel:jackolantern10 matches chisel:jackolantern10.
+Found ItemStack chisel:jackolantern10. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern11
+Regex match found! chisel:jackolantern11 matches chisel:jackolantern11.
+Found ItemStack chisel:jackolantern11. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern12
+Regex match found! chisel:jackolantern12 matches chisel:jackolantern12.
+Found ItemStack chisel:jackolantern12. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern13
+Regex match found! chisel:jackolantern13 matches chisel:jackolantern13.
+Found ItemStack chisel:jackolantern13. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern14
+Regex match found! chisel:jackolantern14 matches chisel:jackolantern14.
+Found ItemStack chisel:jackolantern14. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern15
+Regex match found! chisel:jackolantern15 matches chisel:jackolantern15.
+Found ItemStack chisel:jackolantern15. 64xtile.litpumpkin@0
+hide called. Params: chisel, jackolantern16
+Regex match found! chisel:jackolantern16 matches chisel:jackolantern16.
+Found ItemStack chisel:jackolantern16. 64xtile.litpumpkin@0
+hide called. Params: chisel, limestone_stairs.1
+Regex match found! chisel:limestone_stairs.1 matches chisel:limestone_stairs.1.
+Found ItemStack chisel:limestone_stairs.1. 64xtile.chisel.limestone_stairs.1@0
+hide called. Params: chisel, limestone_stairs.2
+Regex match found! chisel:limestone_stairs.2 matches chisel:limestone_stairs.2.
+Found ItemStack chisel:limestone_stairs.2. 64xtile.chisel.limestone_stairs.2@0
+hide called. Params: chisel, limestone_stairs.3
+Regex match found! chisel:limestone_stairs.3 matches chisel:limestone_stairs.3.
+Found ItemStack chisel:limestone_stairs.3. 64xtile.chisel.limestone_stairs.3@0
+hide called. Params: chisel, limestone_stairs.4
+Regex match found! chisel:limestone_stairs.4 matches chisel:limestone_stairs.4.
+Found ItemStack chisel:limestone_stairs.4. 64xtile.chisel.limestone_stairs.4@0
+hide called. Params: chisel, limestone_stairs.5
+Regex match found! chisel:limestone_stairs.5 matches chisel:limestone_stairs.5.
+Found ItemStack chisel:limestone_stairs.5. 64xtile.chisel.limestone_stairs.5@0
+hide called. Params: chisel, limestone_stairs.6
+Regex match found! chisel:limestone_stairs.6 matches chisel:limestone_stairs.6.
+Found ItemStack chisel:limestone_stairs.6. 64xtile.chisel.limestone_stairs.6@0
+hide called. Params: chisel, limestone_stairs.7
+Regex match found! chisel:limestone_stairs.7 matches chisel:limestone_stairs.7.
+Found ItemStack chisel:limestone_stairs.7. 64xtile.chisel.limestone_stairs.7@0
+hide called. Params: chisel, marble_stairs.1
+Regex match found! chisel:marble_stairs.1 matches chisel:marble_stairs.1.
+Found ItemStack chisel:marble_stairs.1. 64xtile.chisel.marble_stairs.1@0
+hide called. Params: chisel, marble_stairs.2
+Regex match found! chisel:marble_stairs.2 matches chisel:marble_stairs.2.
+Found ItemStack chisel:marble_stairs.2. 64xtile.chisel.marble_stairs.2@0
+hide called. Params: chisel, marble_stairs.3
+Regex match found! chisel:marble_stairs.3 matches chisel:marble_stairs.3.
+Found ItemStack chisel:marble_stairs.3. 64xtile.chisel.marble_stairs.3@0
+hide called. Params: chisel, marble_stairs.4
+Regex match found! chisel:marble_stairs.4 matches chisel:marble_stairs.4.
+Found ItemStack chisel:marble_stairs.4. 64xtile.chisel.marble_stairs.4@0
+hide called. Params: chisel, marble_stairs.5
+Regex match found! chisel:marble_stairs.5 matches chisel:marble_stairs.5.
+Found ItemStack chisel:marble_stairs.5. 64xtile.chisel.marble_stairs.5@0
+hide called. Params: chisel, marble_stairs.6
+Regex match found! chisel:marble_stairs.6 matches chisel:marble_stairs.6.
+Found ItemStack chisel:marble_stairs.6. 64xtile.chisel.marble_stairs.6@0
+hide called. Params: chisel, marble_stairs.7
+Regex match found! chisel:marble_stairs.7 matches chisel:marble_stairs.7.
+Found ItemStack chisel:marble_stairs.7. 64xtile.chisel.marble_stairs.7@0
+hide called. Params: chisel, packedice_stairs.1
+Regex match found! chisel:packedice_stairs.1 matches chisel:packedice_stairs.1.
+Found ItemStack chisel:packedice_stairs.1. 64xtile.chisel.packedice_stairs.1@0
+hide called. Params: chisel, packedice_stairs.2
+Regex match found! chisel:packedice_stairs.2 matches chisel:packedice_stairs.2.
+Found ItemStack chisel:packedice_stairs.2. 64xtile.chisel.packedice_stairs.2@0
+hide called. Params: chisel, packedice_stairs.3
+Regex match found! chisel:packedice_stairs.3 matches chisel:packedice_stairs.3.
+Found ItemStack chisel:packedice_stairs.3. 64xtile.chisel.packedice_stairs.3@0
+hide called. Params: chisel, packedice_stairs.4
+Regex match found! chisel:packedice_stairs.4 matches chisel:packedice_stairs.4.
+Found ItemStack chisel:packedice_stairs.4. 64xtile.chisel.packedice_stairs.4@0
+hide called. Params: chisel, packedice_stairs.5
+Regex match found! chisel:packedice_stairs.5 matches chisel:packedice_stairs.5.
+Found ItemStack chisel:packedice_stairs.5. 64xtile.chisel.packedice_stairs.5@0
+hide called. Params: chisel, packedice_stairs.6
+Regex match found! chisel:packedice_stairs.6 matches chisel:packedice_stairs.6.
+Found ItemStack chisel:packedice_stairs.6. 64xtile.chisel.packedice_stairs.6@0
+hide called. Params: chisel, packedice_stairs.7
+Regex match found! chisel:packedice_stairs.7 matches chisel:packedice_stairs.7.
+Found ItemStack chisel:packedice_stairs.7. 64xtile.chisel.packedice_stairs.7@0
+hide called. Params: chisel, pumpkin2
+Regex match found! chisel:pumpkin2 matches chisel:pumpkin2.
+Found ItemStack chisel:pumpkin2. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin3
+Regex match found! chisel:pumpkin3 matches chisel:pumpkin3.
+Found ItemStack chisel:pumpkin3. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin4
+Regex match found! chisel:pumpkin4 matches chisel:pumpkin4.
+Found ItemStack chisel:pumpkin4. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin5
+Regex match found! chisel:pumpkin5 matches chisel:pumpkin5.
+Found ItemStack chisel:pumpkin5. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin6
+Regex match found! chisel:pumpkin6 matches chisel:pumpkin6.
+Found ItemStack chisel:pumpkin6. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin7
+Regex match found! chisel:pumpkin7 matches chisel:pumpkin7.
+Found ItemStack chisel:pumpkin7. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin8
+Regex match found! chisel:pumpkin8 matches chisel:pumpkin8.
+Found ItemStack chisel:pumpkin8. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin9
+Regex match found! chisel:pumpkin9 matches chisel:pumpkin9.
+Found ItemStack chisel:pumpkin9. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin10
+Regex match found! chisel:pumpkin10 matches chisel:pumpkin10.
+Found ItemStack chisel:pumpkin10. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin11
+Regex match found! chisel:pumpkin11 matches chisel:pumpkin11.
+Found ItemStack chisel:pumpkin11. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin12
+Regex match found! chisel:pumpkin12 matches chisel:pumpkin12.
+Found ItemStack chisel:pumpkin12. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin13
+Regex match found! chisel:pumpkin13 matches chisel:pumpkin13.
+Found ItemStack chisel:pumpkin13. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin14
+Regex match found! chisel:pumpkin14 matches chisel:pumpkin14.
+Found ItemStack chisel:pumpkin14. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin15
+Regex match found! chisel:pumpkin15 matches chisel:pumpkin15.
+Found ItemStack chisel:pumpkin15. 64xtile.pumpkin@0
+hide called. Params: chisel, pumpkin16
+Regex match found! chisel:pumpkin16 matches chisel:pumpkin16.
+Found ItemStack chisel:pumpkin16. 64xtile.pumpkin@0
+hide called. Params: chisel, torch2
+Regex match found! chisel:torch2 matches chisel:torch2.
+Found ItemStack chisel:torch2. 64xtile.torch@0
+hide called. Params: chisel, torch3
+Regex match found! chisel:torch3 matches chisel:torch3.
+Found ItemStack chisel:torch3. 64xtile.torch@0
+hide called. Params: chisel, torch4
+Regex match found! chisel:torch4 matches chisel:torch4.
+Found ItemStack chisel:torch4. 64xtile.torch@0
+hide called. Params: chisel, torch5
+Regex match found! chisel:torch5 matches chisel:torch5.
+Found ItemStack chisel:torch5. 64xtile.torch@0
+hide called. Params: chisel, torch6
+Regex match found! chisel:torch6 matches chisel:torch6.
+Found ItemStack chisel:torch6. 64xtile.torch@0
+hide called. Params: chisel, torch7
+Regex match found! chisel:torch7 matches chisel:torch7.
+Found ItemStack chisel:torch7. 64xtile.torch@0
+hide called. Params: chisel, torch8
+Regex match found! chisel:torch8 matches chisel:torch8.
+Found ItemStack chisel:torch8. 64xtile.torch@0
+hide called. Params: chisel, torch9
+Regex match found! chisel:torch9 matches chisel:torch9.
+Found ItemStack chisel:torch9. 64xtile.torch@0
+hide called. Params: chisel, torch10
+Regex match found! chisel:torch10 matches chisel:torch10.
+Found ItemStack chisel:torch10. 64xtile.torch@0
+Loading: OpenBlocks.js
+override called. Params: OpenBlocks, tank, 0
+Regex match found! OpenBlocks:tank matches OpenBlocks:tank.
+Found ItemStack OpenBlocks:tank. 64xtile.openblocks.tank@0
