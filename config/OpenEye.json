@@ -1,4 +1,14 @@
 {
+    "gui": {
+        "mainScreenNotes": {
+            "comment": "Enables OpenEye additions to main menu screen",
+            "value": true
+        },
+        "mainScreenExtraLine": {
+            "comment": "Enables extra line in main menu screen under buttons (if true, only note button will be displayed)",
+            "value": true
+        }
+    },
     "features": {
         "reportsBlacklist": {
             "value": []
@@ -7,41 +17,31 @@
             "value": []
         }
     },
-    "debug": {
-        "dontSend": {
-            "value": false
-        },
-        "pingOnInitialReport": {
-            "value": false
-        },
-        "crashOnStartup": {
-            "value": false
-        },
-        "debugSanitizer": {
-            "value": false
-        }
-    },
     "data": {
-        "scanOnly": {
-            "comment": "Send only information about files and crashes - no analytics",
-            "value": false
+        "tags": {
+            "value": []
         },
         "sentCrashReportsLimit": {
             "comment": "Maximum number of crash reports from single category sent per single run",
             "value": 20
         },
-        "tags": {
-            "value": []
+        "scanOnly": {
+            "comment": "Send only information about files and crashes - no analytics",
+            "value": false
         }
     },
-    "gui": {
-        "mainScreenExtraLine": {
-            "comment": "Enables extra line in main menu screen under buttons (if true, only note button will be displayed)",
-            "value": true
+    "debug": {
+        "debugSanitizer": {
+            "value": false
         },
-        "mainScreenNotes": {
-            "comment": "Enables OpenEye additions to main menu screen",
-            "value": true
+        "dontSend": {
+            "value": false
+        },
+        "crashOnStartup": {
+            "value": false
+        },
+        "pingOnInitialReport": {
+            "value": false
         }
     }
 }
