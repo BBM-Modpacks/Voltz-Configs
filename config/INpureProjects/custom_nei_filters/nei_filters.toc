@@ -13,6 +13,5 @@ Bibliocraft.js
 AppliedEnergistics2.js
 Tcon.js
 MFR.js
-ExtraCells.js
 Chisel.js
 OpenBlocks.js
